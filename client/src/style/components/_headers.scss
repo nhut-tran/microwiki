@@ -1,0 +1,34 @@
+.header-primary--main {
+    display: block;
+    width: 100%;
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 1rem;
+    text-align: center;
+    animation-name: moveToRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+.header-primary--sub {
+    display: block;
+    animation-name: moveToLeft;
+    animation-duration: 1s;
+    font-size: 2rem;
+    text-align: center;
+    // letter-spacing: 1.4rem;
+    margin-bottom: 6rem;
+}
+
+
+.header-secondary {
+    color: $color_pink;
+    margin-bottom: 1rem;
+    border-bottom: 0.2rem solid rgba($color_blue, 0.2);
+    
+}
+
+.header-tertinary {
+    color: $color_pink;
+    margin-bottom: 1rem;
+}

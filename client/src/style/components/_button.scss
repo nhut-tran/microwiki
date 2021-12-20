@@ -1,0 +1,170 @@
+
+.btn {
+    &:link,
+    &:visited {
+        text-decoration: none;
+        transition: all .2s;
+        
+    }
+   
+    &-white {
+        text-transform: uppercase;
+        display: inline-block;
+        color:back;
+        background-color: $color-white;
+        position: relative;
+        padding: 1.5rem 6rem;
+        border-radius: 140rem;
+        margin: 0 auto;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 1.5rem;
+        &::after {
+            content: '';
+            display: inline-block;
+            background-color: #ffffff;
+            width: 100%;
+            height: 100%;
+            border-radius: 140rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all 0.2s;
+        }
+        &:hover {
+            box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.5);
+            &::after {
+                transform: scaleX(1.2) scaleY(2);
+                opacity: 0;        
+            }
+        }
+    }
+    &-action {
+        text-transform: uppercase;
+        display: flex;
+        color: $color_back;
+        background-color: $color-white, 0.5;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0  1rem;
+        min-height: 4rem;
+        max-height: 5rem;
+        border: 1px solid rgba($color_blue, 0.8);
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        vertical-align: center;
+        font-weight: 400;
+        &--small {
+            min-height: 0rem;
+            font-size: 1.2rem;
+        }
+        &:hover {
+            background-color: $color_back;
+            color: $color-white;
+            transform: translateY(0.2rem);
+            box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+        &:active {
+            transform: translateY(-0.1rem);
+            box-shadow: 0rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+        }
+        &--disable {
+            @extend .btn-action;
+            color: rgba($color_back, 0.4);
+            border: 1px solid rgba($color_blue, 0.3);
+            pointer-events: none
+        }
+
+        &--method-form {
+            border: 1px solid rgba($color_pink, 0.8);
+            display: flex;
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            
+        }
+        &--method-form-small {
+            border: 1px solid rgba($color_pink, 0.8);
+            display: inline-flex;
+            width: max-content;
+            
+        }
+    }
+
+    
+    &-pagination {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        border: 1px solid rgba($color_pink, 0.3);
+        &:not(:first-child) {
+            margin-left: 0.3rem;
+        }
+        &:link,
+        &:visited {
+            font-size: 1.5rem;
+            padding: 1.2rem 1.3rem;
+        }
+    }
+    &--selected {
+        background-image: linear-gradient(to right,rgba($color_back, 0.5), rgba($color_pink, 0.74));
+        color: $color-white;
+       
+    }
+
+    &-shuttle--right {
+        display: inline-block;
+        width: max-content;
+        padding: 0.2rem 0.3rem;
+        text-align: right;
+        
+            span {
+                transition: all 0.2s;
+            }
+            &:hover {
+                border-bottom: 1px solid $color_pink;
+                color: $color_pink;
+               span {
+                   margin-left: 1.5rem;
+               }
+            }
+    }
+
+    &-shuttle--left {
+        display: inline-block;
+        width: max-content;
+        padding: 0.2rem 0.3rem;
+        text-align: right;
+        
+            span {
+                transition: all 0.2s;
+            }
+            &:hover {
+                border-bottom: 1px solid $color_pink;
+                color: $color_pink;
+               span {
+                   margin-right: 1.5rem;
+               }
+            }
+    }
+
+}
+
+
+
+
+.animation-button {
+    transition: all 0.5s;
+    animation-name: moveToTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}

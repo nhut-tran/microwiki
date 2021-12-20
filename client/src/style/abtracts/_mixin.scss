@@ -1,0 +1,19 @@
+@mixin clearfix {
+    &::after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+}
+@mixin random-bgr(){
+    background: rgb(random(255), random(255), random(255));
+}
+
+@mixin respondMax($breakpoint) {
+    @media screen  and (max-width: $breakpoint) {
+        @content
+    }
+}
+
+
+

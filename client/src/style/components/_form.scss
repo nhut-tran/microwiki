@@ -1,0 +1,165 @@
+$breakpoint_form: 427px;
+
+.form {
+    grid-column: 4 / 8;
+    color: $color_back;
+    margin-top: 2rem;
+    &--user {
+        padding: 4rem 6rem;
+        padding-top: 1rem;
+        box-shadow: 0.2rem 0.5rem 0.6rem rgba(0, 0, 0, 0.5);
+        border: 1px solid $color_blue
+    }
+    & label, h2 {
+        margin-right: 2rem
+    }
+    & input, select, textarea {
+        font-size: 1.6rem;
+        font-family: inherit;
+        color: inherit;
+        border-radius: 2px;
+        height: 3.5rem;
+        border: 1px solid $color_blue;
+        transition: all 0.2s;
+    }
+    & textarea {
+       height: 5rem;
+    }
+    & input:focus {
+        outline: none;
+        transition: all 0.3s;
+        border: none;
+        border: 2px solid rgba($color_pink, 0.74);
+    }
+    & textarea:focus {
+        outline: none;
+        transition: all 0.3s;
+        border: 2px solid rgba($color_pink, 0.74);
+    }
+    & select:focus {
+        transition: all 0.3s;
+        border: 2px solid rgba($color_pink, 0.74);
+    }
+    
+    &__box, &__step{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    &__form-group {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 2rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        @media screen and (max-width: $breakpoint_form) {
+            grid-template-columns: max-content;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 0px;
+        
+            
+    }
+        
+        &__password-eye {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            justify-self: end;
+            align-self: center;
+            margin-right: 0.3rem;
+            @media screen and (max-width: $breakpoint_form) { 
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+        }
+        & h2, h3 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            align-items: center;
+            
+            
+        }
+        &:last-child {
+            margin-bottom: 0rem;
+        }
+        & input, select, textarea, a {
+            // width: 50%;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            @media screen and (max-width: $breakpoint_form) { 
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+        }
+        & input::-webkit-input-placeholder
+         {
+            font-size: 1.2rem;
+            opacity: 0.6;
+            
+        }
+        & input::-moz-placeholder {
+         
+            font-size: 1.2rem;
+            opacity: 0.6;
+            
+        }
+        & input:-ms-input-placeholder
+         {
+            font-size: 1.2rem;
+            opacity: 0.6;
+            
+        }
+        & input:-moz-placeholder
+         {
+            font-size: 1.2rem;
+            opacity: 0.6;
+            
+        }
+    }
+    &__form-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    &__step {
+        &__box {
+            width: 100%;
+            border-bottom: 2px solid rgba($color_back, 0.6);
+            
+        }
+        &__name {
+            margin: 0px auto;
+            text-align: center;
+            
+        }
+        & input {
+            height: 2.5rem;
+        }
+        &__media__box {
+            width: 100%;
+            display: grid;
+            grid-gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+           // grid-template-rows: repeat(2, minmax(20rem, min-content));
+            padding: 1.5rem 0rem;
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+                border-bottom: 0.5px solid rgba($color_pink, 0.3);
+            }
+            & div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                & label {
+                    margin-bottom: 1rem;
+                }
+            }
+    }
+        }
+
+    }

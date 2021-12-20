@@ -1,0 +1,62 @@
+.error-notification {
+    display: block;
+    padding: 0.5rem 0.7rem;
+    color: red;
+    font-weight: 700;
+    & a {
+        text-decoration: none;
+    }
+}
+.notification {
+    text-align: center;
+    grid-column: 4 / 8;
+    min-height: 30rem;
+    &__link {
+        text-decoration: none;
+        color: $color-secondary;
+        font-size: 1.7rem;
+    }
+}
+
+.spinner {
+    grid-column: 4 / 8;
+    text-align: center;
+   align-self: center;
+}
+
+
+.popup {
+    color:  $color-white;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    &__fadeIn {
+        width:  50%;
+        height: auto;
+        opacity: 1;
+        animation-name: popup-in;
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+       
+        z-index: 1000;
+
+    }
+    &__fadeOut {
+        width:  0px;
+        height: 0px;
+        opacity: 0;
+        animation-name: popup-out;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    &--success {
+        background-color: $color_green;
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+    }
+
+}
+
+
+
+

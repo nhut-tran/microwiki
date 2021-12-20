@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: inherit;
+}
+input::-ms-clear {
+    display: none;
+  }
+html {
+    font-size: 62.5%;
+    @include respondMax(1200px) {
+        font-size: 56.25%;
+    }
+
+    @include respondMax(900px) {
+        font-size: 50%;
+    }
+
+    @include respondMax(600px) {
+        font-size: 40%;
+    }
+
+   
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    color: $color-white;
+    padding: 3rem;
+    padding-top: 1rem;
+    line-height: 1.7;
+    box-sizing: border-box;
+    @include respondMax(32em) {
+       padding: 0px;
+}
+}

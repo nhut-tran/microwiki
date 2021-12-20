@@ -1,0 +1,25 @@
+.nhut {
+    //clip the image follow text
+    background-clip: text;
+    //want the div only have width as the text width set it to display: inline-block
+    &:not(:last-child) {
+        margin-bottom: 3px;
+    }
+    //set outline of image with offset
+    img {
+        outline: 1rem solid color;
+        outline-offset: 20rem;
+    }
+
+    //choose one element and effect other element. firts hover effect the parent element then select the childrent not ohver
+    &:hover &__element:not(:hover) {
+        transform: scale(2.5);
+    }
+    div {
+        transform: skewY(7deg);
+    }
+    //direct selector
+    & > * {
+        transform: skew(39);
+    }
+}

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column; //row;
+    align-items: center; //flex-end flex-start ==> vertically
+    justify-content: center; //space-between , space-around, flex-end => horizontally;
+    flex-wrap: wrap;
+    align-content: center; //vertically all items to container
+}
+
+.item {
+    flex-basis: 200px;
+    flex-shrink: 0; //define an item can shrink or not. default value 1 = shrink
+    flex-grow: 1 ;//set relative size of an item to the rest    //or
+    flex: 0 0 30%; //flex grow flex-shrink flex-basis
+}

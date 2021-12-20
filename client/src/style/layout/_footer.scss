@@ -1,0 +1,63 @@
+.footer {
+    grid-column: center-start / center-end;
+    background-image: linear-gradient(to right, rgba($color-secondary, 0.8), rgba($color-secondary, 0.6));
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+    padding: 3rem 4rem;
+    margin-top: 1rem;
+
+    &__nav {
+        display: flex;
+        flex-grow: 8;
+        flex-direction: column;
+        grid-column: 1 / 2;
+        grid-row: 1 / -1;
+    }
+    
+    &__nav-link {
+        display: block;
+        padding: 0.8rem 0.8rem;
+        text-decoration: none;
+        color: #ffffff;
+        height: 100%;
+        font-weight: 300;
+        text-transform: capitalize;
+        transition: all 0.2s;
+        font-size: 1.5rem;
+        &:hover {
+            text-decoration: underline;
+        }
+        
+    }
+    &__social {
+        display: flex;
+        flex-direction: row;
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+        justify-content: flex-end;
+    }
+    &__logo-box {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+        text-align: center;
+        
+    }
+    &__logo {
+        width: 40%;
+    }
+    &__icon {
+        width: 24px;
+        height: 24px;
+        fill: $color_white;
+        @include respondMax(32em) {
+            width: 15px;
+
+        }
+    }
+
+    &__copy {
+        text-align: center;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,618 @@
+[
+    {
+        "_id" : "5d8233f58ddacc1ca8855841",
+        "name" : "BP-Baird-Parker agar",
+        "type" : {
+            "byUsage" : "selective and differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng Staphylococci thwo ISO-6888-1. BP chứa pyruvate, lysin thúc đẩy phát tiển của Staphylococci. Lithium chloride ức chế vi sinh vật gram âm, sodium telurite ức chế vi sinh vật  gram dương khác. Staphylococci có khuẩn lạc màu đen với vòng sáng xung quanh (với vòng mờ đục nhỏ do phân cắt lipid) do khả nằng khử telurite và enzyme lecithinase phân cắt lecithin trong trứng",
+        "gramperlit" : 61.05,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d82355a8ddacc1ca8855842",
+        "name" : "Bile Aesculin Azide agar",
+        "type" : {
+            "byUsage" : "differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Khẳng định enterococci theo ISO 7899-2. enterococci tạo vùng đen trên môi trường",
+        "gramperlit" : 54.65,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d82369f8ddacc1ca8855843",
+        "name" : "Blood agar",
+        "type" : {
+            "byUsage" : "basal",
+            "byPhysical" : "solid"
+        },
+        "description" : "Khẳng định Bacillus cereus theo ISO 7932 hoặc dùng cho tăng sinh không chọn lọc",
+        "gramperlit" : 40,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8237888ddacc1ca8855844",
+        "name" : "BHI-Brain heart infusion broth",
+        "type" : {
+            "byUsage" : "basal",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Dùng cho tăng sinh không chọn lọc",
+        "gramperlit" : 37,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8238a98ddacc1ca8855845",
+        "name" : "BGBL-Brilliant green bile Lactose broth",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Khẳng định coliforms theo ISO-4831 và ISO-7251. Dựa trên khả năng lên men lactose sinh khí và sinh trưởng trong môi trường có muối mật No.3, Brilliant-green ",
+        "gramperlit" : 40,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8239788ddacc1ca8855846",
+        "name" : "VRB-Violet Red bile lactose agar)",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Đếm coliform theo ISO 4832. VRB chứa muối mật, crystal violet ức chế sự phát triển của vi khuẩn gram dương. Coliforms lên men lactose sinh acid giảm pH sẽ làm neutral red chuyển sang màu đỏ sẩm và làm tủa muối mật xung quanh khuẩn lạc",
+        "gramperlit" : 39.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d823a5e8ddacc1ca8855847",
+        "name" : "BPW-Buffer peptone water",
+        "type" : {
+            "byUsage" : "enrichment",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Tăn sinh không chọn lọc Salmonella theo ISO-6579",
+        "gramperlit" : 25.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d823c878ddacc1ca8855848",
+        "name" : "TBX-Tryptone Bile X-glucuronide Agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Đếm E.coli dương tính beta-D-glucuronidase theo ISO 16649. Dựa trên khả năng phân cắt X-beta-glucuronide giải phóng 5-bromo-4-chloro-3-indolyle tạo khuẩn lạc màu xanh.",
+        "gramperlit" : 31.6,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d823e948ddacc1ca8855849",
+        "name" : "DG18-Dichloran Chloramphenicol Glycerol",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "solid"
+        },
+        "description" : "Đếm nấm men, nấm mốc trên nên mẫu có hoạt độ  nước nhỏ 0.95 theo ISO 21527-2.18%  Glycerol làm giảm hoạt độ nước xuống thấp hơn 0.95. Chloramphenicol giúp ức chế vi khuẩn. Dichloran làm giảm tốc độ phát triển của nấm mốc giúp tạo khuẩn lạc rõ ràng",
+        "gramperlit" : 31.6,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d823ff08ddacc1ca885584a",
+        "name" : "DRBC-Dichloran rose bengal chloramphenicol agar",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "solid"
+        },
+        "description" : "Đếm nấm men, nấm mốc trên nên mẫu có hoạt độ  lớn hơn 0.95 theo ISO 21527-1. Chloramphenicol giúp ức chế vi khuẩn. Dichloran và rose bengal làm giảm tốc độ phát triển của nấm mốc giúp tạo khuẩn lạc rõ rãng",
+        "gramperlit" : 31.6,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d82425e742d1d1d38e98964",
+        "name" : "EC-Escherichia coli broth",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Khẳng định Fecal coliform và tiền chọn lọc trong khẳng định E.coli theo ISO 7251. Muối mật No.3 tạo ức chế vi sinh vật gram dương. coliforms, E.coli lên men tactose sinh khí",
+        "gramperlit" : 37,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8386588e1c0c0a94c58389",
+        "name" : "Half-Fraser broth",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Tiền tăng sinh chọn lọc cho Listeria theo ISO 11290. Accrilavin, nalidixic ức chế vi khuẩn gram âm. Listeria với enzyme glucosidase phân cắt esculin thành esculetin kết hợp với Fe3+ hình thành kết tủa đen",
+        "gramperlit" : 55,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8387a28e1c0c0a94c5838a",
+        "name" : "LSB-Lauryl Sulfate broth",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Định lượng, định tính coliforms theo ISO-4831, ISO-7251. Laryl sulfate ức chế vi khuẩn gram dương. Nguồn cung cấp dinh dưỡng tốt, hệ đệm phosphat giúp vi khuẩn có khả năng lên men lactose sinh khí sinh trưởng nhanh",
+        "gramperlit" : 35.6,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8389c98e1c0c0a94c5838b",
+        "name" : "ALOA-Listeria agar acc. OTTAVIANI and AGOSTI",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Môi trường ria/định lượng chọn lọc Listeria theo ISO-11290. Listeria với enzyme glucosidase phân cắt 5-bromo-4- chloro-3-indolyl-β-D-glucopyranoside tạo khuẩn lạc màu xanh đặc trưng. Riêng Listeria monocystogenes, Listeria ivanovii sở hữu enzyme phosphatidylinositol-specific phospholipase C (PI-PLC) sẽ phân cắt L-α-Phosphatidylinositol (có trong enrichment supplement) tạo vòng sáng xung quanh khuẩn lạc. Nalidixic, polymicine B... giúp ức chế vi khuẩn gram âm",
+        "gramperlit" : 75.53,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d838b998e1c0c0a94c5838c",
+        "name" : "PALCAM-PALCAM agar acc. VAN NETTEN et al.",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Thường được sử dụng là môi trường ria chọn lọc thứ hai cho Listeria theo ISO-11290. Listeria với enzyme glucosidase phân cắt esculin thành esculetin kết hợp với Fe3+ hình thành kết tủa đen. các hợp chất polymyxin, acriflavin, ceftazidime and lithium chloride giúp ức chế vi khuẩn gram âm. Trong Palcam còn có manitol giúp phân biệt vi khuẩn gram dương có khả năng lên men manitol, sẽ tạo khuẩn lạc màu vàng ví dụ như Staphylococcus aureus",
+        "gramperlit" : 79,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8391728e1c0c0a94c5838e",
+        "name" : "TCBS-Thiosulfate Citrate Bile Salts Sucrose Agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Môi trường ria chọn lọc Vibrio theo ISO-21872. TCBS chứa muối mật, pH cao ức chế vi khuẩn gram dương, vi khuẩn không chịu được pH cao. Nguồn carbohydrate duy nhất là sucrose giúp phân biệt được vi khuẩn sử dụng được sucrose vớikhuẩn lạc màu vàng như Vibrio cholera, vi khuản không sử dụng được sucrose sẽ có màu xanh của môi trường như Vibrio parahaemolyticus. Aeromonas và Pseudomonas có khă năng phát triển trên TCBS với khuẩn lạc màu xanh, nhìn chung khả năng chọn lọc của TCBS không cao.",
+        "gramperlit" : 88,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8394fe8e1c0c0a94c5838f",
+        "name" : "YEA-Yeast extract agar",
+        "type" : {
+            "byUsage" : "basal",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng tổng vi sinh vật hiếu khí theo ISO-6222. YEA với hàm lượng dinh dưỡng thấp phù hợp cho nền mẫu nước. Vì vi khuẩn hiện trong nước thường có nhu cầu dinh dưỡng thấp, bị tổn thương (nước qua xử lý), môi trường có hàm lượng dinh dưỡng cao có thể gây ức chế",
+        "gramperlit" : 35,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8397f48e1c0c0a94c58390",
+        "name" : "SLANETZ-SLANETZ and BARTLEY agar",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "solid"
+        },
+        "description" : "Đinh lượng enterocci trong nước theo ISO-7899. Slanetz chứa sodium azide ức chế sự phát triển của các vi sinh vật khác, TTC giúp tạo màu đỏ cho khuẩn lạc.",
+        "gramperlit" : 41.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d839d1d8e1c0c0a94c58391",
+        "name" : "MRVP-Methyl red VOGES-PROSKAUER Broth",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Phân biệt hai nhóm vi khuẩn dựa trên việc sử dụng glucose sinh ra hỗn hợp acid làm giảm mạnh pH môi trường (MR+, VP-) và nhóm vi khuẩn sử dụng glucose sinh ra acid sau đó nhanh chóng chuyển hóa acid sinh ra thành acetoin, 2,3-butanediol hoặc diacetyl (nhóm này VP+, MR-). Sau khi nuôi cấy, nhỏ thuốc thử methyl red (màu đỏ pH < 4.4) vào dịch nuôi cấy, nếu chuyển sang màu đỏ, kết luận MR+. Đối với VP test: nhỏ thuốc thử A (alpha-naphtol phản ứng acetoin tạo màu đỏ), sau đó nhỏ thuốc thử B (KOH tạo môi trường kiềm cho phản ứng xảy ra) đọc kết quả trong 60 phút. Nếu dịch nuôi cấy màu đỏ kết luận VP+.",
+        "gramperlit" : 17,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d839f1a8e1c0c0a94c58392",
+        "name" : "MKttn-Muller-Kauffmann Tetrathionate Novobiocine broth",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Tăng sinh chọn lọc Salmonella theo ISO-6579. MKTTn chứa thiosulfate phản ứng vói I2/KI tạo ra tetrathionate giúp thúc đẩy sự phát triển của Salmonella nhanh hơn (do Salmonella có thể sử dụng tetrathionate như chất nhận electron). Muối mật, brilliant green, novobiocine ức chế sự phát triển của vi khuẩn gram dương",
+        "gramperlit" : 89.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d83a0708e1c0c0a94c58393",
+        "name" : "RVS-RAPPAPORT VASSILIADIS Soya Broth",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Tăng sinh chọn lọc Salmonella theo ISO-6579. RVS giúp chọn lọc Salmonella dựa trên khả năng sinh trưởng trong môi trường có áp suất thẩm thấu cao (RVS chứa lượng lớn MgCl2, NaCl), pH thấp, không bị ức chế bởi malachite green",
+        "gramperlit" : 41.8,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d88e2e97651d60a289c4f97",
+        "name" : "Phenol red broth",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Sử dụng làm môi trường nền với chất chỉ thị phenol red để kiểm tra khả năng lên men đường của vi sinh vật. Chất chỉ thị phenol red đổi màu từ đỏ sang vàng nếu vi sinh vật kiểm tra có khả năng lên men loại đường bổ sung vào.",
+        "gramperlit" : 15,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d88e50b505f6026d459dc98",
+        "name" : "PCA-Plate count agar",
+        "type" : {
+            "byUsage" : "basal",
+            "byPhysical" : "solid"
+        },
+        "description" : "Sử dụng trong sếm tổng số vi sinh vật hiêu khí theo ISO-4831. PCA không chứa bất kỳ chất chọn lọc hay ức chế nào cùng  vớihàm lượng dinh dưỡng cao giúp thu hồi vi sinh vật tốt",
+        "gramperlit" : 22.5,
+        "useIn" : [ 
+            {
+                "_id" : "5d96029e84797b1f80cb1634",
+                "method" : "5d96029e84797b1f80cb1631"
+            }
+        ],
+        "__v" : 1
+    },
+    {
+        "_id" : "5d88ec69505f6026d459dc99",
+        "name" : "TSI-Triple sugar iron agar",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "solid"
+        },
+        "description" : "Phân biệt vi sinh vật dựa trên khả năng sử dụng đường (lactose, sucrose, glucose) hoặc peptone trong các điều kiện kỵ khí, hiếu khí với sự đổi màu của chất chỉ thị phenol red. TSI được chuẩn bị dưới dạng thạc nghiên, khi cây vi sinh sẽ cấy ria trên mặt nghiên (hiếu khí), cấy đâm sâu vào đáy ống( kị khí). Trong 3 loại đường, glucose có chỉ hàm lượng 0.1% thấp hơn 10 lần so với sucrose/lactose.\n Nếu vi sinh vật có khẳ năng sử dung đường glucose sẽ ưu tiên sử dụng glucose nên trong vài giờ đầu cả ống sẽ chuyển sang vàng. Do hàm lượng glucose thấp, sau vài giờ glucose can kiệt nếu vi sinh vật có khả năng sử dụng đường lactose và/hoặc sucrose sẽ sử dụng hai loại đường này, kết quả cả mặt nghiên và đáy ống sẽ vẫ giữ màu vàng. Nếu vi sinh không có khả năng sử dụng đường lactose và sucrose, ở mặt nghiên vi sinh vật sẽ chuyển sang biến dưỡng peptone kiềm hóa khiến cho mặt nghiên chuyển sang đỏ, đáy ống vẫn vàng. Nếu vi sinh vật không có khả năng sử dung cả 3 loại đường mặt nghiên sẽ chuyển sang đỏ, đáy ống không thay dổi màu hoặc chuyển sang đỏ (tùy thuộc vào khả năng sử dụng được peptone trong môi trường kỵ khí. TSI còn có khả năng phân biệt vi sinh vật dữa trên khả năng khử thiosulfate sinh H2S (tạo kết tủa đen) và sinh khí (làm nứt thạch hoặc đẩy thạch lên cao)",
+        "gramperlit" : 22.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d88ef5c505f6026d459dc9a",
+        "name" : "Ure-Urea broth",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Phân biệt vi sinh vật có enzyme urease, phân cắt ure thành CO2 và NH3. NH3 sẽ làm đổi màu môi trường (phenol red) từ vàng sang màu đỏ",
+        "gramperlit" : 38.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b6ac95b0c6e1a581f442b",
+        "name" : "HE-Hektoen-Enteric-agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Thường được sử dụng như môi trường thứ hai ria chọn lọc Salmonella ISO-6579, Shigella ISO-21567. Khả năng chọn lọc của HE dựa trên muối mât giúp ức chế vi khuẩn gram dương. Phân biệt các vi khuẩn dựa vào khả năng sử dụng đường lactose, sucrose, hoặc salicin. Vi sinh vật sử dụng được một trong 3 loại đường sẽ có khuẩn lạc màu vàng do sinh acid làm đổi màu chất chỉ thị màu ( Bromthymol blue and acid fuchsin). Salmonella và Shigella không sử dụng được 3 loại đường trên nên khuẩn lạc sẽ có màu xanh của môi trường. Riêng Salmonella có khả năng kuwr sulfite nên tâm của khuẩn lạc sẽ có màu đen ",
+        "gramperlit" : 75,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b747d78a84e2608c34917",
+        "name" : "CN/CFC-Pseudomonas CN/CFC agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng Pseudomonas aeruginosa trong nước theo ISO-16626 với chất bổ sung CN (cetrimide, nalidixic acid), định lượng Pseudomonas spp. trong thực phẩm theo ISO-13720 với chất bổ bung CFC (cephalothin, fucidine, cetrimeide). Pseudomonas spp có khả năng taọ ra chất tạo màu pyocianin (pigment) , chất phát huỳnh quang (fluorescein) pyoverdin dưới tia UV bước sóng 366nm. Trong đó, chất tạo màu xanh pyocyanin là đặc trưng cho pseudomonas aeruginosa. Trong Pseudomonas CN/CFC agar chứa glycerol, MgCl2, K2PO4 kích thích Pseudomonas tăng cường chất tạo màu, chất phát huỳnh quang giúp dẽ dàng nhận biết.",
+        "gramperlit" : 48.4,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b787578a84e2608c3491a",
+        "name" : "VRBD-Violet Red Bile Dextrose Agar ",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng Enterobacteriaceae  theo ISO-21528. VRBD chứa muối mật, crystal violet ức chế sự phát triển của vi khuẩn gram dương. Enterobacteriaceae lên men dextrose (glucose) sinh acid giảm pH sẽ làm neutral red chuyển sang màu đỏ sẩm và làm tủa muối mật xung quanh khuẩn lạc",
+        "gramperlit" : 39.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b7aec78a84e2608c3491b",
+        "name" : "MYP-Mannitol Egg Yolk Polymyxin Agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng Bacillus cereus theo ISO 7932. MYP chứa polymixin B ức chế vi khuẩn gram âm. Vi sinh vật có khả năng sửa dụng mannitol sinh acid có khuẩn lạc màu vàng do làm chuyển phenol red. Bacillus cereus không sử dụng mannitol nên khuẩn lạc màu hồng do biến dưỡng peptone tăng pH môi trường. Hơn nữa, Bacillus cereus có enzyme lecithinase phân hủy lecithin trong trứng tạo vòng trắng đục xung quanh khuẩn lạc.",
+        "gramperlit" : 47.78,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b7d9b78a84e2608c3491c",
+        "name" : "TSC-Tryptose Sulfite Cycloserine agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng Clostridium perfringens trong nước theo ISO-14189, trong thực phẩm theo ISO-7937. Cycloserine trong TSC ức chế vi khuẩn gram âm. Clostridium perfringens khử sodiumthiosulfate sinh H2S phản ứng với Fe3+ tạo khuẩn lạc màu đen.",
+        "gramperlit" : 39,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b80aa78a84e2608c3491d",
+        "name" : "MacConkey Agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Ria phân lập Salmonella, Shigella theo ISO-6579, ISO-21567. MacConkey agar chứa muối mật, crystal violet ức chế vi khuẩn gram dương. Lactose và neutral red giúp phân biệt giữa vi sinh vật có khả năng lên men lactose. Vi sinh vật lên men lactose sinh acid làm neutral red chuyển sang màu đỏ nên khuẩn lạc sẽ có màu đỏ cùng vòng tủa muối mật xung quanh. Salmonella, Shigella và câc vi sinh vật không lên men lactose sẽ có khuẩn lạc không màu do sử dụng peptone làm tăng pH môi trường đổi màu neutral red sang không màu.",
+        "gramperlit" : 50,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b829d78a84e2608c3491e",
+        "name" : "FT-Fluid Thioglycollate Medium",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Dùng tăng sinh chọn vi vật kỵ khí theo ISO 7937. Thioflycollate, L-cystein khử oxy hòa tan vào môi trường giúp đảm bảo môi trường ở trạng thái kỵ khí.",
+        "gramperlit" : 30,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b844978a84e2608c3491f",
+        "name" : "LS-Lactose Sulphite Broth ",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Khẳng định clostridium perfringens theo ISO-7937. LS chứa L-cystenin khử oxy giúp tọa điều kiện kỵ khí. Clostridium perfringens lên men lactose sinh khí, khử sodiumthiosulfate tạo kết tủa đen.",
+        "gramperlit" : 20.3,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b857f78a84e2608c34920",
+        "name" : "Lactose gelatin medium",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Khẳng định clostridium perfringens theo ISO-7937. Clostridium perfringens lên men lactose sinh khí, hóa lỏng gelatin. Sau khi ủ 24h, trong diều kiện kỵ khí, dặt ống môi trường ở 5oC trong 1h. Nếu ống môi trường không đông cứng kết luận vi sinh vật có khả năng hóa lỏng gelatin",
+        "gramperlit" : 135,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b866978a84e2608c34921",
+        "name" : "TSTA-Tryptone Sucrose Tetrazolium Agar Base",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "solid"
+        },
+        "description" : "Sử dung như môi trường ria chọn lọc thứ 2 Vibrio parahaemolyticus, Vibrio cholera theo ISO 21872. Tính chọn lọc dựa trên nồng độ muối NaCl cao và muối mật ức chế vi khuẩn gram dương. Vi sinh vật phát triên được trên TSTA sẽ có màu đỏ do khử TTC trong môi trường.",
+        "gramperlit" : 85.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8b8a3c78a84e2608c34923",
+        "name" : "Motility nitrate medium",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "hemi-solid"
+        },
+        "description" : "Sử dụng khẳng định Clostridium perfringens theo ISO-7937 dựa trên khả năng di đông (âm tính) và khử nitrate (dương tính). Clostridium perfringens khửa nitrate (NO3) thành nitrite( NO2). Ống môi trường sau khi ủ sẽ bổ sung thuốc thử nirtrate A và B. Nếu môi trường tồn tại nitrite sẽ phản ứng với thuốc thử tạo màu đỏ, kết luận dương tính. Sau khi bổ sung thuốc thứ không xuất hiện màu đỏ, cho thêm một ít bột kẽm (zn) vào, hai trường hợp (TH) có thể xảy ra. TH1: vi sinh vật có thể khử nitrate thành các sản phẩm khác không phải nitrite như N2 nên khi cho bột kẽm sẽ không đổi màu, kết luận dương tính. TH2: vi sinh vật không có khả năng khử nitrate nên trong môi trường sẽ có nitrate nên khi cho bột kẽm vào tạo màu đỏ, kết luận âm tính.",
+        "gramperlit" : 19.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cbb03c71ed00aac9cadc1",
+        "name" : "Simmons citrate agar",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "solid"
+        },
+        "description" : "Simons citrate chứa sodium citrate là nguồn carbon duy nhất giúp kiểm tra khả năng sử dụng citrate như nguồn carbon của vi sinh vật. Một số vi sinh vật có citrate-perase sẽ vận chuyển citrate vào trong tế bào chất. Citrate sẽ được chuyển hóa thành pyruvate. Việc biến dưỡng citrate kiềm hóa môi trường làm thay đổi màu môi trường từ xanh lá sang xanh dương",
+        "gramperlit" : 22.3,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cc125c71ed00aac9cadc3",
+        "name" : "GIO-Giolitti Cantoni staphylococci broth",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Giolitti Cantoni broth sử dụng tăng sinh chọn lọc Staphylococci theo ISO-6888. Pyruvate, glycine, mannitol thúc đẩy sinh trưởng của Staphylococci. Lithium chloride ức chế vi sinh vật gram âm, potassium telurite ức chế các vi khuẩn gram dương khác, đồng thời giúp nhận biết sự hiện hiện diện của Staphylococci nhờ khả năng khử telurite làm đen môi trường.",
+        "gramperlit" : 55,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cc390c71ed00aac9cadc4",
+        "name" : "CCA-Coliform agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "CCA dùng định lượng coliforms tổng số, E.coli trong nước bằng màng lọc theo ISO-9308-1. Coliforms trên CCA sẽ có khuẩn lạc màu hồng hồng do sở hữu enzyme  ß-D-galactosidase phân cắt Salmon-Gal. E.coli sẽ có khuẩn lạc màu xanh đến tím sẫm do hoạt động đồng thời của 2 hai enzyme ß-D-glucoronidase phân cắt X-glucuronide, ß-D-galactosidase phân cắt Salmon-Gal",
+        "gramperlit" : 21,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cc763c71ed00aac9cadc5",
+        "name" : "King’s B Medium",
+        "type" : {
+            "byUsage" : "differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "King’s Medium B được sử dụng khẳng định Pseudomonas aeruginosa theo ISO-16626. Pseudomonas aeruginosa có khả năng sản xuất nhiều chất tạo màu khác nhau như pyocianin (màu xanh), pyoverdin (phát quang dưới tia UV), pyorubin (màu nâu). King B chứa MgSO4, K2HPO4 giúp tăng cường sản xuất pyoverdin phát quang dưới tia UV 366nm để dẽ dàng nhận diện Pseudomonas aeruginosa",
+        "gramperlit" : 42.23,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cc9ffc71ed00aac9cadc6",
+        "name" : "Acetamide broth part A & B ",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Sử dụng đẻ khẳng đinh Pseudeomonas aeruginosa theo ISO-16626. Acetamimide broth chứa acetamide là nguồn carbon, nitrogen duy nhất, giúp nhận diện vi sinh vật có enzyme acrylamidase tách nhóm NH3 ra khỏi acetamide (deamination) làm tăng pH môi trường. Vì vậy, khi nhỏ thuốc thử Nes'ler sẽ xuất hiện màu đỏ sẫm do NH3 tạo kết tủa với các hợp chất trong thuốc thử",
+        "gramperlit" : 7.63,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8ccd87c71ed00aac9cadc7",
+        "name" : "LDC-Lysin dercaboxylase broth",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "LDC dùng để test khả năng decarboxylase Lysin của một số vi sinh vật. Quá trình decarboxylase giải phóng NH3 làm đổi màu của bromcerol purple từ nâu sang tím. Vi sinh vật không có khả năng decarboxylase lysine sẽ lên men glucose (glucose với hàm lượng rất thấp để Vi sinh vật dương tính decarboxylase nhanh chóng sử dụng hết và chuyển sang decarboxylase để sử dụng) sinh acid làm vàng môi trường. Sau khi chủng vi sinh vật, bổ sung một lớp dầu khoáng giúp tạo diều kiện kỵ khí để thúc đẩy quá trình decarboxylase và bảo vệ sản phẩm của quá trình này (dễ bị phân hủy bới oxy) giúp giữ được màu tím đặc trưng",
+        "gramperlit" : 14.02,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8ccec6c71ed00aac9cadc8",
+        "name" : "ODC-Orthinine dercaboxylase broth",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "ODC dùng để test khả năng decarboxylase Orthinine của một số vi sinh vật. Quá trình decarboxylase giải phóng NH3 làm đổi màu của bromcerol purple từ nâu sang tím. Vi sinh vật không có khả năng decarboxylase Orthinine sẽ lên men glucose (glucose với hàm lượng rất thấp để Vi sinh vật dương tính decarboxylase nhanh chóng sử dụng hết và chuyển sang decarboxylase để sử dụng) sinh acid làm vàng môi trường. Sau khi chủng vi sinh vật, bổ sung một lớp dầu khoáng giúp tạo diều kiện kỵ khí để thúc đẩy quá trình decarboxylase và bảo vệ sản phẩm của quá trình này (dễ bị phân hủy bới oxy) giúp giữ được màu tím đặc trưng.",
+        "gramperlit" : 9.01,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8ccfacc71ed00aac9cadc9",
+        "name" : "ADH-Arginine dihydrolase broth",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "liquid"
+        },
+        "description" : "ADH dùng để test khả năng dihydrolase Orthinine của một số vi sinh vật. Quá trình dihydrolase giải phóng NH3 làm đổi màu của bromcerol purple từ nâu sang tím. Vi sinh vật không có khả năng dihydrolase Arginine sẽ lên men glucose (glucose với hàm lượng rất thấp để Vi sinh vật dương tính dihydrolase nhanh chóng sử dụng hết và chuyển sang dihydrolase Arginin để sử dụng) sinh acid làm vàng môi trường. Sau khi chủng vi sinh vật, bổ sung một lớp dầu khoáng giúp tạo diều kiện kỵ khí để thúc đẩy quá trình decarboxylase và bảo vệ sản phẩm của quá trình này (dễ bị phân hủy bới oxy) giúp giữ được màu tím đặc trưng.",
+        "gramperlit" : 19.31,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cd439c71ed00aac9cadca",
+        "name" : "Glucose OF medium",
+        "type" : {
+            "byUsage" : "test culture",
+            "byPhysical" : "hemi-solid"
+        },
+        "description" : "Glucose OF medium dùng để test khăng biến dưỡng glucose theo con đường lên men (fermentation) và/hoặc oxi hóa (oxidation) (chu trình kreb) dùng để khẳng đinh Enterobacteriaceae theo ISO-21. Để thực hiện phép thử, cấy đam sâu vi sinh vật vào hai ống môi trường (dạng bán rắn). Một ống được phủ lên một lớp dầu khoáng để test khả năng lên men glucose, ống còn lại không phủ dầu khoáng test khả năng oxi hóa đường. Sau khi ủ, nếu cả hai ống sinh vàng (toàn bộ hoặc chỉ phần trên của ống) kết luận vi sinh vật có khả năng sử dụng glucose theo cả hai con đường lên men VÀ oxi hóa HOẶC chỉ lên men. Nếu chỉ có ống không phủ dầu khoáng chuyển vàng, kết luận vi sinh vật chỉ biến dưỡng glucose theo đường oxi hóa. Nêu cả hai ống không đổi màu hoặc chuyển sang màu sẫm hơn do sử dụng peptone kết luận vi sinh vật không sử dụng được đường glucose",
+        "gramperlit" : 20.38,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cdb34c71ed00aac9cadcb",
+        "name" : "XLD-Xylose Lysine Deoxycholate Agar",
+        "type" : {
+            "byUsage" : "selective-differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "XLD dược sử dụng ria phân lập Salmonella, Shigella. XLD chứa muối mật, deoxycholate ức chế vi sinh vật gram dương. 3 loại đường: xylose (hàm lượng thấp hơn hai loại còn lại), lactose, sucrose cùng với phenol red, lysin, sodium thiosulfate, Ammonium Iron(III) Citrate tạo nên hẹ thống chỉ thị cho XLD. Salmonella sử dụng được xylose nên ban đầu sẽ làm vàng XLD nhưng do xylose có hàm lượng thấp nên sẽ nhan chóng cạn kiệt, Salmonella sẽ decarboxylase lysin làm tăng pH chuyển môi trường thành màu đỏ cùng với khả năng khử thiosulfate (tạo H2S phản ứng với Fe3+ trong Ammonium Iron(III) Citrate tọa kết tủa đen) nên tâm khuẩn lạc có màu đen. Shigella chỉ có khả năng decarboxylase lysin , không có khả năng sử dụng 3 loại đường và khử thiosulfate  nên khuẩn lạc sẽ có màu đỏ và làm đỏ môi trường. Các vi sinh vật gram âm khác như Ecoli có khăng sử dụng được lactose, sucrose sẽ có khuẩn lạc màu vàng.",
+        "gramperlit" : 55,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cdcf5c71ed00aac9cadcc",
+        "name" : "Tryptone water",
+        "type" : {
+            "byUsage" : "differential",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Tryptone water dùng đẻ khẳng định E.coli theo ISO-7251. Tryptone (peptone từ casein) giàu amio acid tryptophan là tiền chất để E.coli chuyển thành indole. Sự hiện diện của indole được phát hiện bằng thuốc thử Kovac's.",
+        "gramperlit" : 15,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d8cdef7c71ed00aac9cadcd",
+        "name" : "SIA-Sulfite Iron Agar",
+        "type" : {
+            "byUsage" : "differential",
+            "byPhysical" : "solid"
+        },
+        "description" : "Định lượng vi sinh kị khí khử sulfite theo ISO-15213. Vi sinh vật kị khí có khả năng khử sulfite sẽ sinh H2S. Sau đó H2S phản ứng với Fe3+ tạo kết tủa đẹn xun quanh khuẩn lạc.",
+        "gramperlit" : 40.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5d9b577a2ed6032084018fa9",
+        "name" : "TSTA-Tryptone Soya Yeast Extract Agar",
+        "type" : {
+            "byUsage" : "basal",
+            "byPhysical" : "solid"
+        },
+        "description" : "Sử dụng tăng sinh Listeria monocytogenens.",
+        "gramperlit" : 46,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5db0739d3fb215241857f324",
+        "name" : "dich pha loang",
+        "type" : {
+            "byUsage" : "basal",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Sử dụng pha loãng mẫu",
+        "gramperlit" : 9.5,
+        "useIn" : [],
+        "__v" : 0
+    },
+    {
+        "_id" : "5db1a5e5c28be458c5cd9252",
+        "name" : "Fraser broth",
+        "type" : {
+            "byUsage" : "selective",
+            "byPhysical" : "liquid"
+        },
+        "description" : "Tăng sinh chọn lọc cho Listeria theo ISO 11290. Với hàm lượng Accrilavin, nalidixic gấp đôi so với half-fraser broth giúp tăng cường khả năng chọn lọc. Listeria với enzyme glucosidase phân cắt esculin thành esculetin kết hợp với Fe3+ hình thành kết tủa đen",
+        "gramperlit" : 55,
+        "useIn" : []
+    }
+]

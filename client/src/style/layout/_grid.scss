@@ -1,0 +1,7 @@
+.container {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: [spareLeft-start] 1fr [spareLeft-end center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) 
+                            [center-end spareRight-start] 1fr [spareRight-end];
+    
+}

@@ -1,0 +1,30 @@
+
+.icon {
+   
+    &--spinner {
+        fill: $color_back;
+        animation: rotates 2s linear infinite;
+        width: 6rem;
+        height: 6rem;     
+    }
+    &--eye {
+        fill: $color_back;
+        width: 1.5rem;
+        height: 1.5rem;
+        opacity: 0.3;
+    }
+    &--eye-blocked {
+        fill: $color_back;
+        width: 1.5rem;
+        height: 1.5rem;
+        opacity: 0.3;
+    }
+
+    &--logo {
+        fill: red;//#60b0f4;
+        width: 50%;
+        height: 100%;
+       
+    }
+}
+

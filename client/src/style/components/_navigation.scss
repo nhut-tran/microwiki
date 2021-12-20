@@ -1,0 +1,163 @@
+//media query break point
+$break : 32em;
+
+.nav-small__close {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: block;
+    flex-grow: 0;
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+    align-self: center;
+    margin-right: 1rem;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+.nav-small {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content max-content;
+        width: 100vw;
+        height: 100vh;
+        align-self: start;
+        background-color: $color_white;
+        justify-content: start;
+        animation-name: moveToLeft;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: backwards;
+        backface-visibility: hidden;
+        z-index: 3000;
+        position: fixed;
+        &__box {
+            grid-column: 1 / -1;
+            grid-row: 2 / 3;
+            display: flex;
+            flex-direction: column;
+            border-top: 2px solid rgba($color_blue, 0.8);;
+            box-shadow: 0 2rem 2rem rgba($color_back, 0.4);
+        }
+    &__link {
+        display: block;
+        padding: 1.6rem 0.8rem;
+        text-decoration: none;
+        color: $color_pink;
+        min-width: 100%;
+        font-weight: 300;
+        text-transform: capitalize;
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-bottom: 1px solid rgba($color_back, 0.4);
+        height: 7rem;
+
+        &:hover,
+        &:active {
+            transform: scale(1.03);
+            padding-left: 1rem;
+            background-image: linear-gradient(to right,rgba($color_back, 0.5), rgba($color_pink, 0.65));
+        }
+    }
+
+    &--userImg {
+        margin-left: auto;
+        margin-right: 2rem;
+        display: flex;
+    }
+}
+.nav {
+        display: flex;
+        flex-grow: 8;
+        align-items: center;
+        min-height: 38px;
+        @include respondMax($break) {
+            justify-content: flex-end;
+        }
+       
+        &__link {
+            display: block;
+            padding: 0.6rem 0.8rem;
+            text-decoration: none;
+            color:  $color_white;
+            height: 100%;
+            font-weight: 400;
+            text-transform: capitalize;
+            font-size: 1.7rem;
+            transition: all 0.2s;
+            &:hover {
+                border-bottom: 0.2rem solid $color_white;
+                font-weight: 700;
+                transform-origin: center;
+            }
+            @include respondMax($break) {
+                width: 0px;
+                display: none;
+            }
+        
+            &--login-control {
+               margin-left: auto;
+               @include respondMax($break) {
+                    width: 0px;
+                    display: none;
+                }
+            }
+            &--userImg {
+                margin-left: auto;
+                margin-right: 2rem;
+                display: flex;
+                @include respondMax($break) {
+                    width: 0px;
+                    display: none;
+                }
+            
+        }
+       
+    }   
+
+    &__userImg {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 200rem;
+        display: inline-block;
+        clip-path: circle(50% at 50% 50%);
+        align-self: center;
+    }
+    &__small-nav {
+        @media screen and (min-width: 460px) { 
+            display: none;
+        }
+        @include respondMax($break) {
+            position: relative;
+            margin-right: 1rem;
+            margin-left: auto;
+            cursor: pointer;
+            &,
+            &::before,
+            &::after {
+                height: 2px;
+                width: 3rem;
+                display: block;
+                background-color: red;
+            }
+            &::before,
+            &::after {
+                content: '';
+                position: absolute;
+
+            }
+
+            &::before {
+                top: -1rem
+            }
+            &::after {
+                top: 1rem;
+            }
+        }
+    }
+    
+
+         
+}
+
